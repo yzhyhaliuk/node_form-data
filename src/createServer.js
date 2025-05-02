@@ -73,7 +73,7 @@ function createServer() {
     }
 
     res.statusCode = 404;
-    res.end('Not Found');
+    res.end('Not found');
   });
 
   return server;
