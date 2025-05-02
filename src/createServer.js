@@ -51,7 +51,7 @@ function createServer() {
         }
 
         const expense = {
-          amount: fields.amount,
+          amount: Number(fields.amount),
           date: fields.date,
           title: fields.title,
         };
